@@ -1,6 +1,6 @@
-![logo](_media/icon.svg)
+![logo](res/icon.png)
 
-# docsify
+# 空洞骑士维基
 
 > A magical documentation site generator.
 
@@ -9,6 +9,6 @@
 * Not build static html files
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](guide.md)
+[Get Started](zh-cn/README.md)
 
 ![color](#f0f0f0)

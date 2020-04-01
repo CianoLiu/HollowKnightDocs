@@ -1,2 +1,1 @@
-* [首页](zh-cn/)
-* [指南](zh-cn/guide)
+  * [护符](zh-cn/Charms.md)

@@ -2,41 +2,51 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>HollowKnight</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="icon" href="res/icon.png">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      // logo: 'res/icon.png',
+      // name: '首页/Home',
       repo: '',
       loadSidebar: true,
-      subMaxLevel: 2,
-      loadNavbar: true,
-      homepage:'README.md',
-      coverpage: true,
-      name: 'docsify',
+      // alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md',
+      // },
+      subMaxLevel: 5,
+      loadNavbar: false,
+      homepage:'zh-cn/README.md',
+      auto2top: true,
+      // coverpage: true,
+      coverpage: {
+        '/': 'zh-cn/_coverpage.md',
+        '/zh-cn/': 'zh-cn/_coverpage.md',
+        '/en-ww/': 'en-ww/_coverpage.md'
+      },
+      // name: 'HollowKnight',
       search: {
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
         paths: 'auto', // or 'auto'
-        placeholder: 'Type to search',
-
+        // placeholder: 'Type to search',
         // 支持本地化
         placeholder: {
+          '/': '搜索',
           '/zh-cn/': '搜索',
-          '/': 'Type to search'
+          '/en-ww/': 'Type to search'
         },
 
-        noData: 'No Results!',
-
+        // noData: 'No Results!',
         // 支持本地化
         noData: {
+          '/': '找不到结果',
           '/zh-cn/': '找不到结果',
-          '/': 'No Results'
+          '/en-ww/': 'No Results',
         },
 
         // 搜索标题的最大程级, 1 - 6
@@ -51,5 +61,6 @@
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/disqus.min.js"></script>
+  <!-- <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
 </body>
 </html>
