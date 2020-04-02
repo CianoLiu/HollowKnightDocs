@@ -26,5 +26,6 @@
 |序号|图标|简介|占用槽位|
 |:-:|-|-|:-:|
 |1|![任性的指南针](../../res/Charm_WaywardCompass.png "任性的指南针")|[任性的指南针](/zh-cn/Charms/Charm_WaywardCompass.md)<br>当地图打开时，将其位置告诉佩戴者，允许漫游者进行精确定位。|1|
-|2|![蜂群集结](../../res/Charm_GatheringSwarm.png "蜂群集结")|[蜂群集结]()<br>虫群将跟随持有者并收集任何散落的[吉欧]()。|1|
+|2|![蜂群集结](../../res/Charm_GatheringSwarm.png "蜂群集结")|[蜂群集结](/zh-cn/Charms/Charm_GatheringSwarm.md)<br>虫群将跟随持有者并收集任何散落的[吉欧]()。|1|
 |3|![坚硬外壳](../../res/Charm_StalwartShell.png "坚硬外壳")|[坚硬外壳]()<br>加强韧性。当从伤害中恢复时，延长持有者保持不受伤害的时间。|2|
+|4|![灵魂捕手](../../res/Charm_SoulCatcher.png "灵魂捕手")|[灵魂捕手]()<br>增加用骨钉攻击敌人时获得的灵魂数量。|2|
