@@ -1,1 +1,0 @@
-  * [护符](zh-cn/Charms/Charms.md)
